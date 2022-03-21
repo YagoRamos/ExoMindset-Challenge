@@ -1,0 +1,82 @@
+.show {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #3e2461;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    display:inline-block; 
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .textcard {
+      min-height: 100%; /*replace this it in width: 100%*/
+      width: 100%;
+      float: right;
+      padding-left: 1rem;
+  }
+
+  .cardtitle {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+    font-size: 2rem;
+    color: #f7e702;
+  }
+  
+  .carddesc {
+    overflow:hidden;
+  line-height: 2rem;
+  max-height: 9rem;
+  -webkit-box-orient: vertical;
+  display: block;
+  display: -webkit-box;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 4;   
+  } 
+  
+  .cardimage {
+    display: flex;
+  }
+
+  .cardimagenotfound {
+    width: 210px;
+    height: 295px;
+  }
+
+  .floatlayout {
+    padding: 5px 5px;
+    float: left;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  .cardcontainer {
+    overflow: hidden;
+  }
+  
+  button {
+    font: inherit;
+    cursor: pointer;
+    background: #ac7aee;
+    border: 1px solid #9750f3;
+    color: white;
+    padding: 0.75rem 2rem;
+    border-radius: 20px;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:hover,
+  button:active {
+    background-color: #d2b8f3;
+    border-color: #000000;
+  }
+  
